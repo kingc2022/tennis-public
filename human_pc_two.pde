@@ -3,7 +3,7 @@ void human_vs_pc_2() {
   此自定义函数功能
    ·实现人与电脑对战 （有限模式）
    */
-  surface.setTitle(name_2 + " v" + version + " - 上海民办彭浦实验小学 | 五（6）中队 | 蔡宇清制作 - 有限模式");
+  surface.setTitle(name_2 + " v" + version + " - 有限模式");
   noCursor();
   background(0);
   board();
