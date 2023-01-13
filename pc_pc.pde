@@ -3,7 +3,7 @@ void pc_vs_pc() {
    此自定义函数功能:
    · 实现电脑对战电脑的功能
    */
-  surface.setTitle(name_2 + " v" + version + " - 上海民办彭浦实验小学 | 五（6）中队 | 蔡宇清制作 - 电脑对战");
+  surface.setTitle(name_2 + " v" + version + " - 电脑对战");
   noCursor();
   background(0);
   pvp_board();
