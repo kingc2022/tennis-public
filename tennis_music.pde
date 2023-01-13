@@ -1,9 +1,9 @@
 /*
- Copyright (c) 2022 蔡宇清, All rights reserved.
+ Copyright (c) 2022 Cyq, All rights reserved.
  +-----------------------------------+
  |           Tennis                  |
  |         Verison 2.1               |
- |       Programmer: 蔡宇清          |
+ |       Programmer: Cyq             |
  +-----------------------------------+
  */
 
@@ -112,7 +112,7 @@ int pvp_down = 0; // PVP board down
 void setup() {
   size(800, 500);
   name_2 = name_1.substring(0, 1).toUpperCase() + name_1.substring(1, name_1.length()).toLowerCase(); // Format title name
-  surface.setTitle(name_2 + " v" + version + " - 上海民办彭浦实验小学 | 五（6）中队 | 蔡宇清制作");
+  surface.setTitle(name_2 + " v" + version + " - 选择模式");
   textAlign(CENTER);
   font = createFont("Comic Sans MS", 30, true);
   font_2 = createFont("LiSu", 30, true);
